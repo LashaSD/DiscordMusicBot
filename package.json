@@ -1,0 +1,21 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "",
+    "start": "node main.js",
+    "server": "nodemon main.js"
+  },
+  "author": "Lasha",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.18",
+    "ytdl-core": "^4.11.2"
+  }
+}
